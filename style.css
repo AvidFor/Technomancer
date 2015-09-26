@@ -1,0 +1,99 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+#gameField {
+    display: flex;
+}
+
+.topBar {
+    display: flex;
+}
+
+    .fame {
+        min-width: 200px;
+        height: 50px;
+        border: solid 2px silver;
+    }
+
+    .gold {
+        min-width: 200px;
+        height: 50px;
+        border: solid 2px silver;
+    }
+
+    .mainNavigation {
+        min-width: 600px;
+        width: 100%;
+        height: 50px;
+    }
+
+
+
+#CraftDiv {
+    min-width: 200px;
+    height: 800px;
+    border: solid 2px silver;
+}
+
+#TechnologyDiv {
+    min-width: 200px;
+    height: 800px;
+    border: solid 2px blue;
+}
+
+#ShopDiv {
+    min-width: 600px;
+    width: 100%;
+    height: 800px;
+    border: solid 2px green;
+    display: flex;
+    flex-direction: column;
+}
+
+    .customer {
+        width: 95%;
+        height: 50px;
+        border: solid 2px black;
+        text-align: right;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 20px;
+    }
+
+    .thief {
+        width: 95%;
+        height: 50px;
+        border: solid 2px red;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 20px;
+    }
+
+.craftInfo {
+    height: 20px;
+    width: 100%;
+    border: solid 2px black;
+}
+
+.craft {
+    background-color: white;
+    height: 50px;
+    width: 100%;
+    border: solid 2px black;
+    display: flex;
+    flex-direction: column;
+}
+
+    .itemInfo {
+
+    }
+
+    .progressBar {
+        background-color: black;
+        height: 100%;
+        width: 0;
+        text-align: center;
+    }
+

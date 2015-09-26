@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="JavaScript/jquery-1.11.3.js"></script>
+    <script src="JavaScript/main.js"></script>
+    <script src="JavaScript/customers.js"></script>
+    <script src="JavaScript/navigation.js"></script>
+    <script src="JavaScript/event.js"></script>
+    <script src="JavaScript/inventory.js"></script>
+    <script src="JavaScript/value.js"></script>
+    <script src="JavaScript/items.js"></script>
+    <script src="JavaScript/craftCooldowns.js"></script>
+    <script src="JavaScript/variousFunctions.js"></script>
+    <script src="JavaScript/craftExp.js"></script>
+    <script src="JavaScript/craftLvl.js"></script>
+</head>
+<body>
+<div class="topBar">
+
+    <div class="fame"><span id="fame"></span></div>
+
+    <div class="mainNavigation">
+        <button class="mainNavigationButton" onclick="changeView('ShopDiv')">Shop</button>
+        <button class="mainNavigationButton" onclick="changeView('InventoryDiv')">Inventory</button>
+        <button class="mainNavigationButton" onclick="changeView('CraftDiv')">Craft</button>
+        <button class="mainNavigationButton" onclick="changeView('RessourcesDiv')">Ressources</button>
+        <button class="mainNavigationButton" onclick="changeView('TechnologyDiv')">Technology</button>
+        <button class="mainNavigationButton" onclick="changeView('HeroesDiv')">Heroes</button>
+    </div>
+
+    <div class="gold"><span id="gold"></span></div>
+
+</div>
+<div id="gameField">
+
+    <div class="" id="CraftDiv">
+
+        <div class="craftInfo"><span id="craftInfo"></span></div>
+        <div class="craft" id="pistol"><span class="itemInfo" id="pistolInfo"></span><span class="progressBar" id="pistolBar"></span></div>
+        <div class="craft" id="rifle"><span class="itemInfo" id="rifleInfo"></span><span class="progressBar" id="rifleBar"></span></div>
+        <div class="craft" id="shotgun"><span class="itemInfo" id="shotgunInfo"></span><span class="progressBar" id="shotgunBar"></span></div>
+
+    </div>
+
+    <div class="" id="ShopDiv">
+
+
+
+    </div>
+
+    <div class="" id="TechnologyDiv">
+
+
+
+    </div>
+
+</div>
+
+<div class="" id="InventoryDiv">
+
+
+
+</div>
+
+<div class="" id="RessourcesDiv">
+
+
+
+</div>
+
+
+<div class="" id="HeroesDiv">
+
+
+
+</div>
+
+</body>
+</html>
